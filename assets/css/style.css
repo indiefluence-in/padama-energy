@@ -2391,7 +2391,7 @@ textarea.form-control {
   right: 0;
 }
 
-.custom-icon-right i {
+.custom-icon i {
   margin-left: 0;
   margin-right: 10px;
 }
@@ -7095,7 +7095,8 @@ textarea.form-control {
 
 .blog-author.widget {
   padding: 35px;
-  background-color: #e4f2e2;
+  background-color: #68cbbf;
+  opacity: 0.5;
 }
 
 .blog-author.widget .blog-author__avatar {
@@ -7443,7 +7444,7 @@ textarea.form-control {
   flex: 0 0 32%;
   max-width: 32%;
   padding-bottom: 40px;
-  background-color: #e4f2e2;
+  background-color: rgb(104,203,191,0.1);
   border-radius: 10px;
   padding: 50px;
 }
