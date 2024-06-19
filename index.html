@@ -787,113 +787,124 @@ Testimonials
                   </div> <!-- /.col-lg-12 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
-                        required>
+                      <input type="text" class="form-control" placeholder="Full Name" id="contact-name" name="contact-name" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                        name="contact-email" required>
+                      <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                        name="contact-phone">
+                      <input type="text" class="form-control" placeholder="Phone" id="contact-phone" name="contact-phone">
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Address" id="contact-address"
-                        name="contact-address" required>
+                      <input type="text" class="form-control" placeholder="Company Name" id="company-name" name="company-name"
+                        required>
+                    </div>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Company Address" id="company-address"
+                        name="company-address" required>
+                    </div>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <select class="form-control" id="industry" name="industry" required>
+                        <option value="" disabled selected>Industry</option>
+                        <option value="oilAndGas">Oil and Gas</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="transportation">Transportation</option>
+                        <option value="retail">Retail</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Country" id="country" name="country" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-12">
-                    <span class="font-weight-bold color-heading d-block mb-15 mt-10">System Data</span>
+                    <span class="font-weight-bold color-heading d-block mb-15 mt-10">Energy Requirements</span>
                   </div><!-- /.col-12 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">System Installer?</option>
-                        <option value="1">System Installer 1</option>
-                        <option value="1">System Installer 2</option>
+                      <select class="form-control" id="energyType" name="energyType" required>
+                        <option value="" disabled selected>Type of Product Needed</option>
+                        <option value="crudeOil">Crude Oil</option>
+                        <option value="gas">Gas</option>
+                        <option value="pms">Premium Motor Spirit</option>
+                        <option value="kerosene">Kerosene</option>
+                        <option value="asphalt">Asphalt</option>
+                        <option value="other">Other</option>
                       </select>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">System Installer?</option>
-                        <option value="1">System Installer 1</option>
-                        <option value="1">System Installer 2</option>
-                      </select>
+                      <input type="text" class="form-control" placeholder="Quantity Needed (in litres)" id="quantity" name="quantity"
+                        required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Monthly electric usage ?</option>
-                        <option value="1">100</option>
-                        <option value="2">200</option>
-                      </select>
+                      <input type="date" class="form-control" id="deliveryDate" name="deliveryDate" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Solar system type?</option>
-                        <option value="1">Solar system 1</option>
-                        <option value="2">Solar system 2</option>
-                      </select>
+                      <input type="text" class="form-control" placeholder="Delivery Location" id="deliveryLocation"
+                        name="deliveryLocation" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
-                  <div class="col-sm-6">
+                  <div class="col-12">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Solar panels place?</option>
-                        <option value="1">Solar panels 1</option>
-                        <option value="2">Solar panels 2</option>
-                      </select>
+                      <textarea class="form-control" placeholder="Additional Delivery Instructions" id="deliveryInstructions"
+                        name="deliveryInstructions"></textarea>
                     </div>
-                  </div><!-- /.col-sm-6 -->
-                  <div class="col-sm-6">
+                  </div><!-- /.col-12 -->
+                  <div class="col-12">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Materials on your roof?</option>
-                        <option value="1">Materials 1</option>
-                        <option value="2">Materials 2</option>
-                      </select>
+                      <textarea class="form-control" placeholder="Additional Requirements or Questions" id="additionalInfo"
+                        name="additionalInfo"></textarea>
                     </div>
-                  </div><!-- /.col-sm-6 -->
+                  </div><!-- /.col-12 -->
                   <div class="col-12">
                     <span class="font-weight-bold color-heading d-block mb-15 mt-10">Preferred Contact Method</span>
                     <div class="d-flex">
                       <div class="form-group input-radio mr-30">
                         <label class="label-radio">All
-                          <input type="radio" name="contact" checked>
+                          <input type="radio" name="contact" value="all" checked>
                           <span class="radio-indicator"></span>
                         </label>
                       </div><!-- /.input-radio -->
                       <div class="form-group input-radio mr-30">
                         <label class="label-radio">Email
-                          <input type="radio" name="contact">
+                          <input type="radio" name="contact" value="email">
                           <span class="radio-indicator"></span>
                         </label>
                       </div><!-- /.input-radio -->
                       <div class="form-group input-radio">
                         <label class="label-radio">Phone
-                          <input type="radio" name="contact">
+                          <input type="radio" name="contact" value="phone">
                           <span class="radio-indicator"></span>
                         </label>
                       </div><!-- /.input-radio -->
                     </div>
-                    <button type="submit" class="btn btn__secondary btn__block">
+                  </div><!-- /.col-12 -->
+                  <div class="col-12">
+                    <button type="submit" class="btn btn__primary btn__block">
                       <i class="icon-arrow-right"></i> <span>Submit Request</span>
                     </button>
                     <div class="contact-result"></div>
                   </div><!-- /.col-12 -->
-                </div><!-- /.row -->
+                </div>
+                <!-- /.row -->
               </form>
             </div>
           </div><!-- /.col-xl-6 -->
@@ -955,7 +966,7 @@ Testimonials
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-50">
               <h2 class="heading__subtitle">News & Announcements</h2>
-              <h3 class="heading__title">Recent Articles</h3>
+              <h3 class="heading__title color-black">Recent Articles</h3>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->

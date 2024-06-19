@@ -1192,7 +1192,7 @@ select {
 .bg-overlay-primary-gradient:before {
   background-color: transparent;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #68cbbfD9), color-stop(95%, #3C9830));
-  background-image: linear-gradient(360deg, #68cbbf 16%, #000000 95%);
+  background-image: linear-gradient(360deg, #68cbbf 16%, #ffffff 95%);
 }
 
 /*-------------------------
@@ -2806,8 +2806,8 @@ textarea.form-control {
   padding: 0;
   margin: 0;
   line-height: 10px;
-  width: 200px;
-  height: 60px;
+  width: 150px;
+  height: 50px;
 }
 
 .navbar .logo-light {
