@@ -93,6 +93,7 @@ section {
 }
 
 img {
+  margin-bottom: 20px;
   max-width: 100%;
 }
 
@@ -1432,8 +1433,8 @@ h6 {
   font-size: 17px;
   color: #ffffff;
   background-color: #68cbbf;
-  -webkit-box-shadow: 0 0 0 15px rgba(74, 171, 61, 0.15);
-  box-shadow: 0 0 0 15px rgba(74, 171, 61, 0.15);
+  -webkit-box-shadow: 0 0 0 15px #68cbbf;
+  box-shadow: 0 0 0 15px #68cbbf;
 }
 
 .page-title-layout1 .scroll-down:before,
@@ -1449,8 +1450,8 @@ h6 {
   transform: translate(-50%, -50%);
   -webkit-animation: ripple 3s infinite;
   animation: ripple 3s infinite;
-  -webkit-box-shadow: 0 0 0 0 rgba(74, 171, 61, 0.3);
-  box-shadow: 0 0 0 0 rgba(74, 171, 61, 0.3);
+  -webkit-box-shadow: 0 0 0 0 #68cbbf;
+  box-shadow: 0 0 0 0 #68cbbf;
 }
 
 .page-title-layout1 .scroll-down:before {
@@ -1506,8 +1507,8 @@ h6 {
     width: 50px;
     height: 50px;
     font-size: 14px;
-    -webkit-box-shadow: 0 0 0 8px rgba(74, 171, 61, 0.15);
-    box-shadow: 0 0 0 8px rgba(74, 171, 61, 0.15);
+    -webkit-box-shadow: 0 0 0 8px #68cbbf;
+    box-shadow: 0 0 0 8px #68cbbf;
   }
 
   .page-title-layout1 .scroll-down:before,
@@ -8647,8 +8648,8 @@ textarea.form-control {
   .banner-layout5 .video__btn .video__player {
     width: 80px;
     height: 80px;
-    -webkit-box-shadow: 0 0 0 15px rgba(74, 171, 61, 0.15);
-    box-shadow: 0 0 0 15px rgba(74, 171, 61, 0.15);
+    -webkit-box-shadow: 0 0 0 15px #68cbbf;
+    box-shadow: 0 0 0 15px #68cbbf;
   }
 
   .banner-layout5 .video__btn-divider {
