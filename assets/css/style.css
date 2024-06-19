@@ -4219,7 +4219,7 @@ textarea.form-control {
 
 .footer .btn__download {
   height: 60px;
-  min-width: 190px;
+  min-width: 10px;
 }
 
 .footer .btn__location {
