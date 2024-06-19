@@ -8871,12 +8871,13 @@ textarea.form-control {
 
 .service-item .service__title {
   position: relative;
-  font-size: 21px;
+  font-size: 18px;
   margin-bottom: 18px;
 }
 
 .service-item .service__desc {
   margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 .service-item .service__body {
