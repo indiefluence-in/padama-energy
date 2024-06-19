@@ -13350,7 +13350,7 @@ a.ui-button:active {
   font-weight: 400;
   font-variant: normal;
   text-transform: none;
-  color: #fff;
+  color: #000;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
