@@ -304,113 +304,124 @@
                   </div> <!-- /.col-lg-12 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
-                        required>
+                      <input type="text" class="form-control" placeholder="Full Name" id="contact-name" name="contact-name" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
-                        name="contact-email" required>
+                      <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
-                        name="contact-phone">
+                      <input type="text" class="form-control" placeholder="Phone" id="contact-phone" name="contact-phone">
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Address" id="contact-address"
-                        name="contact-address" required>
+                      <input type="text" class="form-control" placeholder="Company Name" id="company-name" name="company-name"
+                        required>
+                    </div>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Company Address" id="company-address"
+                        name="company-address" required>
+                    </div>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <select class="form-control" id="industry" name="industry" required>
+                        <option value="" disabled selected>Industry</option>
+                        <option value="oilAndGas">Oil and Gas</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="transportation">Transportation</option>
+                        <option value="retail">Retail</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  </div><!-- /.col-sm-6 -->
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Country" id="country" name="country" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-12">
-                    <span class="font-weight-bold color-heading d-block mb-15 mt-10">System Data</span>
+                    <span class="font-weight-bold color-heading d-block mb-15 mt-10">Energy Requirements</span>
                   </div><!-- /.col-12 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">System Installer?</option>
-                        <option value="1">System Installer 1</option>
-                        <option value="1">System Installer 2</option>
+                      <select class="form-control" id="energyType" name="energyType" required>
+                        <option value="" disabled selected>Type of Product Needed</option>
+                        <option value="crudeOil">Crude Oil</option>
+                        <option value="gas">Gas</option>
+                        <option value="pms">Premium Motor Spirit</option>
+                        <option value="kerosene">Kerosene</option>
+                        <option value="asphalt">Asphalt</option>
+                        <option value="other">Other</option>
                       </select>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">System Installer?</option>
-                        <option value="1">System Installer 1</option>
-                        <option value="1">System Installer 2</option>
-                      </select>
+                      <input type="text" class="form-control" placeholder="Quantity Needed (in litres)" id="quantity" name="quantity"
+                        required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Monthly electric usage ?</option>
-                        <option value="1">100</option>
-                        <option value="2">200</option>
-                      </select>
+                      <input type="date" class="form-control" id="deliveryDate" name="deliveryDate" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Solar system type?</option>
-                        <option value="1">Solar system 1</option>
-                        <option value="2">Solar system 2</option>
-                      </select>
+                      <input type="text" class="form-control" placeholder="Delivery Location" id="deliveryLocation"
+                        name="deliveryLocation" required>
                     </div>
                   </div><!-- /.col-sm-6 -->
-                  <div class="col-sm-6">
+                  <div class="col-12">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Solar panels place?</option>
-                        <option value="1">Solar panels 1</option>
-                        <option value="2">Solar panels 2</option>
-                      </select>
+                      <textarea class="form-control" placeholder="Additional Delivery Instructions" id="deliveryInstructions"
+                        name="deliveryInstructions"></textarea>
                     </div>
-                  </div><!-- /.col-sm-6 -->
-                  <div class="col-sm-6">
+                  </div><!-- /.col-12 -->
+                  <div class="col-12">
                     <div class="form-group">
-                      <select class="form-control">
-                        <option value="0">Materials on your roof?</option>
-                        <option value="1">Materials 1</option>
-                        <option value="2">Materials 2</option>
-                      </select>
+                      <textarea class="form-control" placeholder="Additional Requirements or Questions" id="additionalInfo"
+                        name="additionalInfo"></textarea>
                     </div>
-                  </div><!-- /.col-sm-6 -->
+                  </div><!-- /.col-12 -->
                   <div class="col-12">
                     <span class="font-weight-bold color-heading d-block mb-15 mt-10">Preferred Contact Method</span>
                     <div class="d-flex">
                       <div class="form-group input-radio mr-30">
                         <label class="label-radio">All
-                          <input type="radio" name="contact" checked>
+                          <input type="radio" name="contact" value="all" checked>
                           <span class="radio-indicator"></span>
                         </label>
                       </div><!-- /.input-radio -->
                       <div class="form-group input-radio mr-30">
                         <label class="label-radio">Email
-                          <input type="radio" name="contact">
+                          <input type="radio" name="contact" value="email">
                           <span class="radio-indicator"></span>
                         </label>
                       </div><!-- /.input-radio -->
                       <div class="form-group input-radio">
                         <label class="label-radio">Phone
-                          <input type="radio" name="contact">
+                          <input type="radio" name="contact" value="phone">
                           <span class="radio-indicator"></span>
                         </label>
                       </div><!-- /.input-radio -->
                     </div>
+                  </div><!-- /.col-12 -->
+                  <div class="col-12">
                     <button type="submit" class="btn btn__primary btn__block">
                       <i class="icon-arrow-right"></i> <span>Submit Request</span>
                     </button>
                     <div class="contact-result"></div>
                   </div><!-- /.col-12 -->
-                </div><!-- /.row -->
+                </div>
+                <!-- /.row -->
               </form>
             </div><!-- /.col-xl-6 -->
           </div><!-- /.row -->
@@ -420,7 +431,7 @@
             <p class="text__link text-center color-white mt-40 mb-40">Receive an accurate quote within 3-5 days when you
               fill out the form on this page. Or, give us a call:
               <a href="#" class="color-heading">
-                (002) 01061245741
+                +91 12345-67890
               </a>
             </p>
           </div><!-- /.col-12 -->
@@ -436,17 +447,17 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-5">
             <h2 class="heading__subtitle color-primary">Making Tomorrow Different Today.</h2>
-            <h3 class="heading__title">Energize Society With Sustainable And Reliable Energy Systems!</h3>
-            <p class="heading__desc mb-20">In recent years, new capacity across the solar value chain has
-              become
-              necessary to support the PV market’s growth. However, the capital required to establish and scale-up
-              wafer, solar cell and solar module manufacturing facilities is considerable. </p>
+            <h3 class="heading__title">Energize Your Business with Expert Energy Solutions!</h3>
+            <p class="heading__desc mb-30">In recent years, the demand for efficient and sustainable energy solutions
+              has grown significantly. The complexity and
+              capital required to optimize energy procurement and consulting services are substantial.</p>
+            <p class="heading__desc mb-40">Together, these challenges pose a serious hurdle to sustainable operation and
+              growth in the energy sector.</p>
             <a href="#" class="btn btn__primary btn__outlined btn__custom mb-40">
               <i class="icon-arrow-right"></i>
               <span>Explore All Features!</span>
             </a>
           </div><!-- /col-lg-5 -->
-
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-1">
             <div class="row">
               <!-- Feature item #1 -->
@@ -456,8 +467,8 @@
                     <i class="icon-hydro-power3"></i>
                   </div>
                   <h4 class="feature__title">Save Your Money</h4>
-                  <p class="feature__desc">Save money on utilities or increase the value of your home by installing
-                    solar
+                  <p class="feature__desc">Reduce costs and improve operational efficiency with our expert energy
+                    consulting services
                   </p>
                 </div><!-- /.feature-item -->
               </div><!-- /.col-sm-6 -->
@@ -467,9 +478,9 @@
                   <div class="feature__icon">
                     <i class="icon-biosphere"></i>
                   </div>
-                  <h4 class="feature__title">5Stars Customer Service</h4>
-                  <p class="feature__desc">Understand that we must go above our customer expectations during each
-                    interaction always.
+                  <h4 class="feature__title">5-Star Customer Service</h4>
+                  <p class="feature__desc">We strive to exceed customer expectations in every interaction, ensuring
+                    satisfaction and trust
                   </p>
                 </div><!-- /.feature-item -->
               </div><!-- /.col-sm-6 -->
@@ -479,8 +490,9 @@
                   <div class="feature__icon">
                     <i class="icon-eco-house"></i>
                   </div>
-                  <h4 class="feature__title">Your Home Is Energy</h4>
-                  <p class="feature__desc">Everyday the sun provides us with abundance of free energy by placing solar
+                  <h4 class="feature__title">Reliable Energy Solutions</h4>
+                  <p class="feature__desc">We provide innovative energy solutions tailored to meet the unique needs of
+                    your business
                   </p>
                 </div><!-- /.feature-item -->
               </div><!-- /.col-sm-6 -->
@@ -490,9 +502,9 @@
                   <div class="feature__icon">
                     <i class="icon-energy2"></i>
                   </div>
-                  <h4 class="feature__title">Consult & Planning</h4>
-                  <p class="feature__desc">Our remote industrial solar systems are designed to reliably power our
-                    clients
+                  <h4 class="feature__title">Consulting & Planning</h4>
+                  <p class="feature__desc">Our industrial energy solutions are designed to reliably power and transform
+                    your operations
                   </p>
                 </div><!-- /.feature-item -->
               </div><!-- /.col-sm-6 -->
@@ -502,8 +514,9 @@
                   <div class="feature__icon">
                     <i class="icon-electric-car"></i>
                   </div>
-                  <h4 class="feature__title">Certified Engineers</h4>
-                  <p class="feature__desc">Our sales engineers on our staff have experience and can design any complete
+                  <h4 class="feature__title">Certified Professionals</h4>
+                  <p class="feature__desc">Our experienced team of energy professionals can design and implement
+                    comprehensive energy solutions
                   </p>
                 </div><!-- /.feature-item -->
               </div><!-- /.col-sm-6 -->
@@ -513,14 +526,15 @@
                   <div class="feature__icon">
                     <i class="icon-wind-socket"></i>
                   </div>
-                  <h4 class="feature__title">Awards & <br> Milestones</h4>
-                  <p class="feature__desc">Benefiting from nearly 20 years experience.</p>
+                  <h4 class="feature__title">Awards & Milestones</h4>
+                  <p class="feature__desc">Recognized for excellence in energy services and consulting</p>
                 </div><!-- /.feature-item -->
               </div><!-- /.col-sm-6 -->
             </div><!-- /.row -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
-      </div><!-- /.container -->
+      </div>
+<!-- /.container -->
     </section><!-- /.Features Layout 2 -->
 
     <!-- ========================
