@@ -8836,6 +8836,7 @@ textarea.form-control {
     Services 
 --------------------------*/
 .service-item {
+  height: 450px;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
@@ -9018,6 +9019,197 @@ textarea.form-control {
   }
 
   .services-layout2 .service-item .service__body {
+    padding: 15px;
+  }
+}
+
+
+.service-item-service-page {
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.11);
+  box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.11);
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.service-item-service-page:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 35px;
+  right: 35px;
+  height: 3px;
+  background-color: #68cbbf;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-item-service-page .service__icon {
+  font-size: 65px;
+  line-height: 1;
+  color: #68cbbf;
+  margin-bottom: 50px;
+}
+
+.service-item-service-page .service__title {
+  height: 51px;
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.service-item-service-page .service__desc {
+  margin-bottom: 0;
+  height: 70px;
+  font-size: 0.9rem;
+}
+
+.service-item-service-page .service__body {
+  position: relative;
+  z-index: 2;
+  padding: 29px 35px 35px;
+}
+
+.service-item-service-page .btn {
+  height: 42px;
+  min-width: 140px;
+  margin-top: 28px;
+}
+
+.service-item-service-page:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.services-layout2 .service-item-service-page {
+  margin-bottom: 50px;
+}
+
+.services-layout2 .service-item-service-page .service__body {
+  padding: 18px 25px 25px;
+}
+
+.services-layout2 .service-item-service-page .service__img {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-layout2 .service-item-service-page .service__img img {
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.services-layout2 .service-item-service-page .service__img:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 40px;
+  width: calc(100% + 10px);
+  background-color: #ffffff;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.services-layout2 .service-item-service-page:hover .service__img img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.services-layout2 .service-item-service-page:hover .service__img:after {
+  -webkit-clip-path: polygon(0 100%, 0 100%, 100% 100%);
+  clip-path: polygon(0 100%, 0 100%, 100% 100%);
+}
+
+.services-layout2 .slick-arrow {
+  top: 100%;
+  width: auto;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.services-layout2 .slick-arrow.slick-prev {
+  left: auto;
+  right: 100px;
+}
+
+.services-layout2 .slick-dots {
+  position: absolute;
+  right: 0;
+  width: 125px;
+  bottom: -28px;
+}
+
+@media (max-width: 1024px) {
+  .service-item-service-page:after {
+    left: 20px;
+    right: 20px;
+  }
+
+  .service-item-service-page .service__body {
+    padding: 20px;
+  }
+
+  .services-layout2 .read-note__text {
+    font-size: 14px;
+    padding-right: 150px;
+  }
+
+  .services-layout2 .slick-dots {
+    width: 140px;
+    bottom: -28px;
+  }
+
+  .services-layout2 .slick-arrow.slick-prev {
+    right: 125px;
+  }
+
+  .services-layout2 .slick-arrow.slick-next:before,
+  .services-layout2 .slick-arrow.slick-prev:before {
+    font-size: 30px;
+  }
+
+  .services-layout2 .slick-dots li {
+    margin: 3px;
+    width: 8px;
+    height: 8px;
+    border-width: 2px;
+  }
+}
+
+/* Mobile Phones and tablets */
+@media (min-width: 320px) and (max-width: 767px) {
+  .service-item-service-page .service__title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .service-item-service-page .service__icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .service-item-service-page .service__icon i {
+    font-size: 45px;
+  }
+
+  .service-item-service-page .service__body {
+    padding: 17px 20px 20px;
+  }
+
+  .services-layout2 .service-item-service-page .service__body {
     padding: 15px;
   }
 }
