@@ -5727,13 +5727,15 @@ textarea.form-control {
 }
 
 .portfolio-item .portfolio__img img {
-  width: 100%;
-  max-width: 100%;
+ 
   border-radius: 4px 4px 0 0;
   -webkit-transition: all 0.6s linear;
   transition: all 0.6s linear;
   max-height: 500px;
   height: 450px;
+}
+.portfolio-item .portfolio__img img:hover{
+  color: white;
 }
 
 .portfolio-item .portfolio__body {
