@@ -2875,7 +2875,7 @@ textarea.form-control {
 
 .navbar .nav__item {
   position: relative;
-  margin-right: 25px;
+  margin-right: 40px;
 }
 
 .navbar .nav__item:last-child {
@@ -2891,7 +2891,6 @@ textarea.form-control {
   color: #1b1a1a;
   line-height: 90px;
   letter-spacing: .4px;
-  padding-right: 15px;
 }
 
 .navbar .nav__item .nav__item-link:before {
