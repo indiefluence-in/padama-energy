@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--cJANGED-->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,7 +26,7 @@
     =========================== -->
     <header class="header header-layout1">
       <nav class="navbar navbar-expand-lg sticky-navbar">
-        <div class="container-fluid">
+        <div class="container-fluid" >
           <a class="navbar-brand" href="index.html">
             <img src="assets/images/logo/logo.png" class="logo" alt="logo">
           </a>
@@ -36,18 +36,18 @@
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav">
               <li class="nav__item">
-                <a href="index.html" class="nav__item-link">Home</a>
+                <a href="index.html" class="nav__item-link active">Home</a> 
               </li><!-- /.nav-item -->
               <li class="nav__item">
-                <a href="about-us.html" class="nav__item-link">About Us</a>
+                <a href="about-us.html" class="nav__item-link">About Us</a> 
               </li><!-- /.nav-item -->
-              <li class="nav__item">
+              <li class="nav__item has-dropdown">
                 <a href="services.html" class="nav__item-link">Our Services</a>
               </li><!-- /.nav-item -->
-              <li class="nav__item">
-                <a href="projects.html" class="nav__item-link active">projects</a>
+              <li class="nav__item has-dropdown">
+                <a href="projects.html" class="nav__item-link">Projects</a>
               </li><!-- /.nav-item -->
-              <li class="nav__item">
+              <li class="nav__item has-dropdown">
                 <a href="contact-us.html" class="nav__item-link">Contact Us</a>
               </li><!-- /.nav-item -->
             </ul><!-- /.navbar-nav -->
@@ -55,7 +55,8 @@
           </div><!-- /.navbar-collapse -->
           <div class="contact__number d-none d-xl-flex align-items-center">
             <i class="icon-phone"></i>
-            <a href="tel:+91 12345-67890">+91 12345-67890</a>
+            <a href="tel:+91 12345-67890">+234 803 7543083 
+              </a>
           </div>
           <ul class="navbar-actions d-none d-xl-flex align-items-center list-unstyled mb-0">
             <li>
@@ -68,7 +69,6 @@
         </div><!-- /.container -->
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
-
     <!-- ========================
        page title 
     =========================== -->
@@ -86,6 +86,8 @@
       </div><!-- /.container -->
     </section><!-- /.page-title -->
 
+
+    
     <!-- =========================== 
       portfolio standard 
     ============================= -->
@@ -95,144 +97,122 @@
           <div class="col-12">
             <ul class="portfolio-filter d-flex flex-wrap justify-content-center list-unstyled">
               <li><a class="filter active" href="#" data-filter="all">ALL</a></li>
-              <li><a class="filter" href="#" data-filter=".filter-eco">Category 1</a></li>
-              <li><a class="filter" href="#" data-filter=".filter-finance">Category 2</a></li>
-              <li><a class="filter" href="#" data-filter=".filter-energy">Category 3</a></li>
-              <li><a class="filter" href="#" data-filter=".filter-infractures">Category 4</a></li>
-              <li><a class="filter" href="#" data-filter=".filter-innovations">Category 5</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-contracts">Contract Facilitation</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-leasing">Leasing Consulting</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-importation">Product Importation</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-investment">Investment Consulting</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-pricing">Pricing Consulting</a></li>
             </ul><!-- /.portfolio-filter  -->
           </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
-      <!-- /.row -->
-<div id="filtered-items-wrap" class="row">
-  <!-- portfolio item #1 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-infractures">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #2 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-innovations">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #3 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-energy">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #4 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-finance">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/4.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #5 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-eco">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/5.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #6 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-innovations">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/6.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #7 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-eco portfolio-hidden">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #8 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-energy portfolio-hidden">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-  <!-- portfolio item #9 -->
-  <div class="col-sm-6 col-md-6 col-lg-4 mix filter-infractures portfolio-hidden">
-    <div class="portfolio-item">
-      <div class="portfolio__img">
-        <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
-      </div><!-- /.portfolio-img -->
-      <div class="portfolio__body">
-        <div class="portfolio__cat">
-          <a href="#">Category 1</a><a href="#">Category 2</a>
-        </div><!-- /.portfolio-cat -->
-        <h4 class="portfolio__title"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed</a></h4>
-      </div><!-- /.portfolio__body -->
-    </div><!-- /.portfolio-item -->
-  </div><!-- /.col-lg-4 -->
-</div><!-- /.row -->
-    
+        <div id="filtered-items-wrap" class="row">
+          <!-- portfolio item #1 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-contracts">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Contract Facilitation</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">DSDP Facilitation <br> (2017-2020)</h4>
+                <p>Facilitated contracts between NNPC and Brittanau Limited.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #2 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-contracts">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Contract Facilitation</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">Spot Crude Oil Contracts <br>(2015-2018)</h4>
+                <p>Facilitated crude oil contracts to Chinese and European refineries.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #3 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-leasing">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Leasing Consulting</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">VLCC Leasing Consultant <br> (2000-2020)</h4>
+                <p>Consulted for VLCC leasing with TotalEnergies and NNPCL.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #4 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-importation">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/4.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Product Importation</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">Petroleum Products Importer <br>(2021-2022) </h4>
+                <p>Imported 100,000MT quarterly for NNPCL.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #5 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-investment">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/5.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Investment Consulting</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">Upstream Investment<br>  Consultant</h4>
+                <p>Advised NAPIMS, NPDC, and NNPCL on investments.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #6 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pricing">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/6.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Pricing Consulting</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">Crude Oil Pricing Consultant <br> (2000-2020)</h4>
+                <p>Consulted on pricing model for the Nigerian government.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- portfolio item #7 -->
+          <div class="col-sm-6 col-md-6 col-lg-4 mix filter-pricing portfolio">
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
+              </div><!-- /.portfolio-img -->
+              <div class="portfolio__body">
+                <div class="portfolio__cat">
+                  <a href="#">Pricing Consulting</a>
+                </div><!-- /.portfolio-cat -->
+                <h4 class="portfolio__title">Farm Tanks Sales Consultant <br> (2000-2020)</h4>
+                <p>Consulted on sales of 500,000 MT farm tanks for AMCON.</p>
+              </div><!-- /.portfolio__body -->
+            </div><!-- /.portfolio-item -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             <button type="button" class="btn btn__primary btn__outlined btn__custom loadMoreportfolio mt-30">
@@ -242,7 +222,8 @@
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.portfolio standard -->
-
+    
+    
 
     <!-- ========================
       Footer
@@ -255,46 +236,53 @@
               <h6 class="footer-widget-title">Quick Contact</h6>
               <div class="footer-widget-content">
                 <p class="mb-20">If you have any questions or need help, feel free to contact with our team.</p>
-                <div class="contact__number d-flex align-items-center mb-30">
-                  <i class="icon-phone"></i>
-                  <a href="tel:+91 12345-6789" class="color-primary">+91 12345-67890</a>
-                  </div><!-- /.contact__numbr -->
-                  <p class="mb-20">37 Campbell St, Lagos Island, Lagos 102273, Lagos, Nigeria</p>
-                  <a href="https://maps.app.goo.gl/pVi3AvJk1ypueQ1p7" target="_blank" class="btn__location">
-                  
-                    <span>Get Directions</span>
-                  </a>
-                  </div><!-- /.footer-widget-content -->
-                  </div><!-- /.col-xl-3 -->
-                  <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
-                    <h6 class="footer-widget-title">Company</h6>
-                    <div class="footer-widget-content">
-                      <nav>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Home</a></li>
-                          <li><a href="about-us.html">About Us</a></li>
-                          <li><a href="services.html">Our Services</a></li>
-                          <li><a href="projects.html">Projects</a></li>
-                          <li><a href="contact-us.html">Contact Us</a></li>
-                        </ul>
-                      </nav>
-                    </div><!-- /.footer-widget-content -->
-                  </div><!-- /.col-xl-2 -->
-                  <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget-nav">
-                    <h6 class="footer-widget-title">Services</h6>
-                    <div class="footer-widget-content">
-                      <nav>
-                        <ul class="list-unstyled">
-                          <li><a href="services.html">Upstream Oil and Gas Opportunities</a></li>
-                          <li><a href="services.html">Support and Ancillary Services</a></li>
-                          <li><a href="services.html">Navigating Local Business Requirements</a></li>
-                          <li><a href="services.html">Marketing Crude Oil Products</a></li>
-                          <li><a href="services.html">Third-party Logistics Supervision</a></li>
-                          <li><a href="services.html">General Energy Consulting</a></li>
-                        </ul>
+                <p class="mb-20">37 Campbell St, Lagos Island, Lagos 102273, Lagos, Nigeria</p>
+                <div class="contact__number d-flex align-items-center mb-10">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+2348037543083" class="color-primary">+234 803 7543083</a>
+                </div>
+                <div class="contact__number d-flex align-items-center mb-10">
+                  <i class="fas fa-phone"></i>
+                  <a href="tel:+2348095804970" class="color-primary">+234 809 5804970</a>
+                </div>
+                <div class="contact__number d-flex align-items-center mb-20">
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:businessrelations@padamaenergyltd.com" class="color-primary">businessrelations@padamaenergyltd.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
+              <h6 class="footer-widget-title">Company</h6>
+              <div class="footer-widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                  </ul>
                 </nav>
-              </div><!-- /.footer-widget-content -->
-            </div><!-- /.col-xl-2 -->
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
+              <h6 class="footer-widget-title">Services</h6>
+              <div class="footer-widget-content">
+                <nav>
+                  <ul class="list-unstyled">
+                    <li><a href="services.html">Upstream Opportunities</a></li>
+                    <li><a href="services.html">Support Services</a></li>
+                    <li><a href="services.html">Local Business Navigation</a></li>
+                    <li><a href="services.html">Product Marketing</a></li>
+                    <li><a href="services.html">Logistics Supervision</a></li>
+                    <li><a href="services.html">Relationship Building</a></li>
+                    <li><a href="services.html">General Consulting</a></li>
+                    <li><a href="services.html">Storage Facilities</a></li>
+                    <li><a href="services.html">Market Intelligence</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
             <div class="col-6 col-sm-6 col-md-6 col-lg-2 col-xl-2 footer-widget footer-widget-nav">
               <h6 class="footer-widget-title">Support</h6>
               <div class="footer-widget-content">
@@ -306,25 +294,27 @@
                     <li><a href="#">Returns</a></li>
                   </ul>
                 </nav>
-              </div><!-- /.footer-widget-content -->
-            </div><!-- /.col-xl-2 -->
+              </div>
+            </div>
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 footer-widget footer-widget-align-right">
-              <h6 class="footer-widget-title">Products Catalogue</h6>
+              <h6 class="footer-widget-title">Find Us</h6>
               <div class="footer-widget-content">
-                <a href="request-quote.html" class="btn btn__primary btn__primary-style2 btn__download mb-60">
-                  <i class="icon-download"></i>
-                  <span>Download PDF</span>
+                <a href="https://maps.app.goo.gl/pVi3AvJk1ypueQ1p7" target="_blank" class="btn__location mt-20">
+                  <span>Get Directions</span>
                 </a>
-                <ul class="social-icons list-unstyled">
-                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                </ul><!-- /.social-icons -->
-              </div><!-- /.footer-widget-content -->
-            </div><!-- /.col-xl-3 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.footer-primary -->
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.24069688936!2d3.3159877757683936!3d6.442173268520606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8bfb7fa72261%3A0xcca91f7fd2f918b2!2sCampbell%20St%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1622028293512!5m2!1sen!2sus" 
+                  width="280" 
+                  height="200" 
+                  style="border:0; margin-top: 35px;" 
+                  allowfullscreen="" 
+                  loading="lazy">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="footer-copyrights">
         <div class="container">
           <div class="row">
@@ -339,11 +329,12 @@
               <p class="mb-0">
                 <span class="color-gray">&copy; All Rights Reserved | Padama Energy 2024 </span>
               </p>
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-        </div><!-- /.container -->
-      </div><!-- /.footer-copyrights-->
-    </footer><!-- /.Footer -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
     <button id="scrollTopBtn"><i class="fas fa-long-arrow-alt-up"></i></button>
 
   </div><!-- /.wrapper -->

@@ -89,12 +89,16 @@ a:hover {
 section {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 100px;
+ 
 }
 
 img {
 /*   margin-bottom: 20px;
  */  max-width: 100%;
+}
+
+img.logo{
+  margin-bottom: 20px;
 }
 
 /*-------------------------
@@ -306,6 +310,8 @@ select {
 }
 
 .mt-40 {
+  color: black;
+  font-size: 28px;
   margin-top: 40px !important;
 }
 
@@ -563,7 +569,7 @@ select {
 }
 
 .pb-130 {
-  padding-bottom: 130px !important;
+  padding-bottom: 30px !important;
 }
 
 .pb-140 {
@@ -1244,9 +1250,10 @@ h6 {
 
 .heading__subtitle {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 28px;
   font-weight: 700;
   color: #68cbbf;
+  text-align: center;
   margin-bottom: 10px;
 }
 
@@ -1259,6 +1266,7 @@ h6 {
 .heading__desc {
   font-size: 16px;
   margin-bottom: 0;
+  color: black;
 }
 
 .heading-layout2 .heading__title {
@@ -4193,9 +4201,6 @@ textarea.form-control {
   }
 }
 
-/*-------------------------
-    Footer
---------------------------*/
 .footer {
   background-color: #161616;
 }
@@ -4239,6 +4244,7 @@ textarea.form-control {
 
 .footer-widget {
   margin-bottom: 30px;
+  
 }
 
 .footer-widget-title {
@@ -4409,7 +4415,6 @@ textarea.form-control {
     right: 20px;
   }
 }
-
 /*-------------------------
     Call to Action
 --------------------------*/
@@ -5727,6 +5732,8 @@ textarea.form-control {
   border-radius: 4px 4px 0 0;
   -webkit-transition: all 0.6s linear;
   transition: all 0.6s linear;
+  max-height: 500px;
+  height: 450px;
 }
 
 .portfolio-item .portfolio__body {
@@ -5854,6 +5861,8 @@ textarea.form-control {
 
 .mix {
   display: none;
+  max-height: 500px;
+  height: 500px;
 }
 
 .portfolio-hidden>.portfolio-item {
@@ -6009,12 +6018,16 @@ textarea.form-control {
 
 .portfolio-layout2 .portfolio-item .portfolio__body {
   position: absolute;
-  bottom: -20px;
-  left: 40px;
+  width: 100%;
+  height: 200px;
+  bottom: 0px;
   border-radius: 5px 0 5px 5px;
   padding: 25px 15px 26px 30px;
 }
 
+.portfolio__body:hover{
+  color: rgb(245, 249, 248);
+}
 .portfolio-layout3 .portfolio-item {
   overflow: hidden;
   padding-bottom: 140px;
@@ -6751,8 +6764,7 @@ textarea.form-control {
 }
 
 .clients-light .client img {
-  -webkit-filter: brightness(100);
-  filter: brightness(100);
+ 
 }
 
 .clients-layout2 .client {
@@ -7418,7 +7430,7 @@ textarea.form-control {
 .contact__number a {
   color: #282828;
   font-family: "Rubik", sans-serif;
-  font-size: 22px;
+  font-size: 12.3px;
   line-height: 1;
 }
 
@@ -7449,7 +7461,7 @@ textarea.form-control {
   padding-bottom: 40px;
   background-color: rgb(104, 203, 191, 0.1);
   border-radius: 10px;
-  padding: 50px;
+  padding: 20px;
 }
 
 .contact-panel .contact-info-box .contact__info-box-title {
@@ -8872,7 +8884,7 @@ textarea.form-control {
 
 .service-item .service__title {
   position: relative;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 18px;
 }
 
@@ -8901,6 +8913,7 @@ textarea.form-control {
 
 .services-layout2 .service-item {
   margin-bottom: 50px;
+  max-height: 375px;
 }
 
 .services-layout2 .service-item .service__body {
@@ -9023,8 +9036,10 @@ textarea.form-control {
   }
 }
 
+.make-white{
+  background-color: white;
+}
 .service-item-service-page {
-  height: 550px;
   position: relative;
   overflow: hidden;
   border-radius: 8px;
