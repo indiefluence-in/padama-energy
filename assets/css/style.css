@@ -89,12 +89,16 @@ a:hover {
 section {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 100px;
+ 
 }
 
 img {
 /*   margin-bottom: 20px;
  */  max-width: 100%;
+}
+
+img.logo{
+  margin-bottom: 20px;
 }
 
 /*-------------------------
@@ -306,6 +310,8 @@ select {
 }
 
 .mt-40 {
+  color: black;
+  font-size: 28px;
   margin-top: 40px !important;
 }
 
@@ -563,7 +569,7 @@ select {
 }
 
 .pb-130 {
-  padding-bottom: 130px !important;
+  padding-bottom: 30px !important;
 }
 
 .pb-140 {
@@ -1244,9 +1250,10 @@ h6 {
 
 .heading__subtitle {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 28px;
   font-weight: 700;
   color: #68cbbf;
+  text-align: center;
   margin-bottom: 10px;
 }
 
@@ -1259,6 +1266,7 @@ h6 {
 .heading__desc {
   font-size: 16px;
   margin-bottom: 0;
+  color: black;
 }
 
 .heading-layout2 .heading__title {
@@ -4194,9 +4202,6 @@ textarea.form-control {
   }
 }
 
-/*-------------------------
-    Footer
---------------------------*/
 .footer {
   background-color: #161616;
 }
@@ -4240,6 +4245,7 @@ textarea.form-control {
 
 .footer-widget {
   margin-bottom: 30px;
+  
 }
 
 .footer-widget-title {
@@ -4410,7 +4416,6 @@ textarea.form-control {
     right: 20px;
   }
 }
-
 /*-------------------------
     Call to Action
 --------------------------*/
@@ -7419,7 +7424,7 @@ textarea.form-control {
 .contact__number a {
   color: #282828;
   font-family: "Rubik", sans-serif;
-  font-size: 22px;
+  font-size: 12.3px;
   line-height: 1;
 }
 
@@ -8873,7 +8878,7 @@ textarea.form-control {
 
 .service-item .service__title {
   position: relative;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 18px;
 }
 
@@ -8902,6 +8907,7 @@ textarea.form-control {
 
 .services-layout2 .service-item {
   margin-bottom: 50px;
+  max-height: 375px;
 }
 
 .services-layout2 .service-item .service__body {
