@@ -4219,7 +4219,6 @@ textarea.form-control {
   min-width: 10px;
 }
 
-
 .footer .btn__location {
   font-size: 14px;
   font-weight: 700;
@@ -4237,7 +4236,6 @@ textarea.form-control {
 
 .footer-widget {
   margin-bottom: 30px;
-  
 }
 
 .footer-widget-title {
@@ -4300,17 +4298,17 @@ textarea.form-control {
   font-size: 14px;
 }
 
-.footer-copyrights {
+.footer-copyright {
   background-color: #121212;
   padding-top: 42px;
   padding-bottom: 42px;
 }
 
-.footer-copyrights p {
+.copyright p {
   font-size: 13px;
 }
 
-.footer-copyrights p a:hover {
+.copyright p a:hover {
   color: #ffffff;
 }
 
@@ -4362,7 +4360,6 @@ textarea.form-control {
 }
 
 @media (max-width: 1200px) {
-
   .footer-widget-nav li a,
   .footer__copyright-links li a {
     font-size: 13px;
@@ -5724,17 +5721,22 @@ textarea.form-control {
 }
 
 .portfolio-item .portfolio__img img {
- 
   border-radius: 4px 4px 0 0;
   -webkit-transition: all 0.6s linear;
   transition: all 0.6s linear;
-  min-height: 450px;
-  height: 450px;
+  height: 400px;
+  object-fit: contain;
 }
-.portfolio-item .portfolio__img img:hover{
+
+.portfolio-item .portfolio__img img:hover {
   color: white;
 }
 
+@media (min-width: 768px) {
+  .portfolio-item .portfolio__img img {
+     height: 400px;
+  }
+}
 
 .portfolio-item .portfolio__body {
   background: #ffffff;
