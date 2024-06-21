@@ -4321,6 +4321,10 @@ textarea.form-control {
   color: #ffffff;
 }
 
+.fas.fa-phone {
+  transform: rotate(-270deg);
+}
+
 /* Scroll Top Button */
 #scrollTopBtn {
   position: fixed;
@@ -5731,12 +5735,13 @@ textarea.form-control {
   border-radius: 4px 4px 0 0;
   -webkit-transition: all 0.6s linear;
   transition: all 0.6s linear;
-  max-height: 500px;
+  min-height: 450px;
   height: 450px;
 }
 .portfolio-item .portfolio__img img:hover{
   color: white;
 }
+
 
 .portfolio-item .portfolio__body {
   background: #ffffff;
@@ -5867,6 +5872,9 @@ textarea.form-control {
   height: 500px;
 }
 
+.mix:hover{
+  color: white
+}
 .portfolio-hidden>.portfolio-item {
   display: none;
 }
