@@ -4312,11 +4312,9 @@ textarea.form-control {
   color: #ffffff;
 }
 
-.fas.fa-phone {
-  transform: rotate(-270deg);
-}
 
-/* Scroll Top Button */
+
+.Scroll Top Button */
 #scrollTopBtn {
   position: fixed;
   right: 10px;
